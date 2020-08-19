@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.game-table {
+  border: 2px solid black;
+}
+
+.game-cell {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid lightgray;
+}
+
+.game-cell:nth-child(3n + 4) {
+  border-left: 2px solid black;
+}
+
+.game-table tr:nth-child(3) {
+  border-bottom: 2px solid black;
+}
+
+.game-table tr:nth-child(6) {
+  border-bottom: 2px solid black;
+}
