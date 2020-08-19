@@ -19,6 +19,10 @@ table {
   border: 1px solid lightgray;
 }
 
+.game-cell.cell-selected {
+  background-color: #bbdefb;
+}
+
 .game-cell:nth-child(3n + 4) {
   border-left: 2px solid black;
 }
