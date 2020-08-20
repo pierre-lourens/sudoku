@@ -21,14 +21,7 @@
       </p>
     <![endif]-->
     <div id="container">
-      <div class="difficulty-select">
-        <label>Difficulty:</label>
-        <select>
-          <option value="easy">Easy</option>
-          <option value="easy">Medium</option>
-          <option value="easy">Hard</option>
-        </select>
-      </div>
+      <div class="difficulty-select"></div>
       <div id="game">
         <table class="game-table">
           <tbody>
@@ -135,6 +128,22 @@
             </tr>
           </tbody>
         </table>
+      </div>
+      <div id="game-controls">
+        <div class="game-control">
+          <label>Difficulty:</label>
+          <select>
+            <option value="easy">Easy</option>
+            <option value="easy">Medium</option>
+            <option value="easy">Hard</option>
+          </select>
+        </div>
+        <div class="game-control">
+          <button>Solve next step</button>
+        </div>
+        <div class="game-control">
+          <button>Solve whole Sudoku</button>
+        </div>
       </div>
     </div>
   </body>
